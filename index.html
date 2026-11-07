@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A simple shared Task Manager for the Vistula Team Project course.">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="workspace">
+    <header class="page-header">
+      <div><p class="eyebrow">VISTULA · TEAM PROJECT</p><h1>Task Manager<span class="accent">.</span></h1><p class="subtitle">A little structure. More progress.</p></div>
+      <p class="student-badge">Student ID <strong id="student-id">73259</strong></p>
+    </header>
+    <div class="workspace-grid">
+      <section class="panel composer" aria-labelledby="form-heading">
+        <p class="eyebrow">MAKE YOUR NEXT MOVE</p>
+        <h2 id="form-heading">Create a task</h2>
+        <form id="task-form">
+          <label for="task-title">Title <span aria-hidden="true">*</span></label>
+          <input id="task-title" name="title" required maxlength="200" placeholder="What needs to get done?" autocomplete="off">
+          <label for="task-description">Description <span class="optional">optional</span></label>
+          <textarea id="task-description" name="description" rows="5" maxlength="5000" placeholder="Add a few useful details…"></textarea>
+          <button id="task-submit" class="primary" type="submit" disabled>Add task</button>
+          <button id="cancel-edit" type="button" hidden>Cancel editing</button>
+        </form>
+        <p class="form-note">Tasks are shared and saved in the demonstration database.</p>
+      </section>
+      <section class="tasks-panel" aria-labelledby="list-heading">
+        <div class="section-header"><div><p class="eyebrow">ONE STEP AT A TIME</p><h2 id="list-heading">Your tasks</h2></div><button id="refresh-tasks" type="button" disabled>Refresh</button></div>
+        <p id="task-summary" class="summary">Connect your database to get started.</p>
+        <p id="status-message" role="status" aria-live="polite">Loading configuration…</p>
+        <div id="task-list" aria-busy="true"></div>
+      </section>
+    </div>
+    <footer><span>Built for the Team Project course</span><a id="contribution-link" href="contribution.html">Team contribution <span aria-hidden="true">↗</span></a></footer>
+  </main>
+</body>
+</html>

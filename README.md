@@ -4,14 +4,12 @@ Task Manager for Practical Assignment 1, Team Project – IT, Vistula University
 
 - Student ID: **73259**
 - Required course GitHub username: `vistula-team-project-73259`
-- Expected repository: https://github.com/vistula-team-project-73259/vistula-task-manager
-- Expected application URL: https://vistula-team-project-73259.github.io/vistula-task-manager/
-
-These are the required account and URL formats, not confirmation that the account or deployment exists.
+- Public repository: https://github.com/vistula-team-project-73259/vistula-task-manager
+- Live application: https://vistula-team-project-73259.github.io/vistula-task-manager/
 
 ## Current state
 
-The application is connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains the project URL and public publishable key. Live REST checks passed for reading, creating, editing, completing, reopening, and deleting a temporary task, including separate reads to verify saved changes. The temporary test record was removed. GitHub Pages deployment is not yet complete. The contribution files must arrive through a different student's Pull Request; they are intentionally absent. The Team contribution link will work after that PR is merged and Pages redeploys.
+The application is published on GitHub Pages from the root of `main` and connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains only the project URL and public publishable key. A browser check on the deployed website passed for adding a task, retaining it after a page reload, editing the title and description, marking it complete and incomplete, and deleting it. The temporary test record was removed. The contribution files must arrive through a different student's Pull Request; they are intentionally absent. The Team contribution link will work after that PR is merged and Pages redeploys.
 
 ## 1. Set up Supabase
 
@@ -36,6 +34,8 @@ Official references: [Supabase API keys](https://supabase.com/docs/guides/gettin
 
 ## 2. Publish on GitHub Pages
 
+**Already completed.** Publishing source: `main`, `/ (root)`. The following steps describe how to reproduce the deployment.
+
 1. Use your dedicated `vistula-team-project-73259` GitHub account.
 2. Create a **public** repository named exactly `vistula-task-manager`.
 3. Upload the **contents of this folder** directly into the root of its `main` branch, including your completed `config.json`. Do not upload a containing folder or ZIP as the website.
@@ -57,7 +57,7 @@ The app uses GET for the list and by-ID reads, POST to create, PATCH to edit/tog
 
 ### Preparation checks
 
-JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. GitHub Pages and partner PRs remain unverified. The local browser preview could not reach the preview server, so the application layout has not been browser-verified.
+JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. The published GitHub Pages application was then checked in a browser: create, page-reload persistence, edit, both status transitions, and delete all passed. The desktop layout was visually inspected. Partner contributions remain pending.
 
 ## 4. Complete the collaboration with another student
 

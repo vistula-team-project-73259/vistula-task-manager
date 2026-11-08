@@ -9,7 +9,7 @@ Task Manager for Practical Assignment 1, Team Project – IT, Vistula University
 
 ## Current state
 
-The application is published on GitHub Pages from the root of `main` and connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains only the project URL and public publishable key. A browser check on the deployed website passed for adding a task, retaining it after a page reload, editing the title and description, marking it complete and incomplete, and deleting it. The temporary test record was removed. Partner 74014's contribution arrived through PR #1 and was reviewed and merged by this repository's owner. The deployed contribution page was checked: Show Contributor loads the JSON and displays 74014. My reciprocal PR to the partner's main branch is open and awaits the partner's review and merge.
+The application is published on GitHub Pages from the root of `main` and connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains only the project URL and public publishable key. A browser check on the deployed website passed for adding a task, retaining it after a page reload, editing the title and description, marking it complete and incomplete, and deleting it. The temporary test record was removed. Partner 74014's contribution arrived through PR #1 and was reviewed and merged by this repository's owner. The deployed contribution page was checked: Show Contributor loads the JSON and displays 74014. My reciprocal PR to the partner's main branch was reviewed and merged by partner 74014. Both deployed contributor pages were checked: this project's page shows 74014, and the partner's page shows 73259.
 
 ## 1. Set up Supabase
 
@@ -57,7 +57,7 @@ The app uses GET for the list and by-ID reads, POST to create, PATCH to edit/tog
 
 ### Preparation checks
 
-JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. The published GitHub Pages application was then checked in a browser: create, page-reload persistence, edit, both status transitions, and delete all passed. The desktop layout was visually inspected. The incoming contributor page was reviewed and checked on the deployed site; the reciprocal PR remains open.
+JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. The published GitHub Pages application was then checked in a browser: create, page-reload persistence, edit, both status transitions, and delete all passed. The desktop layout was visually inspected. The incoming contributor page was reviewed and checked on the deployed site; the reciprocal PR was merged by partner 74014 and the partner's deployed page displays 73259.
 
 ## 4. Complete the collaboration with another student
 
@@ -73,7 +73,7 @@ Do not add your own contribution files directly to this repository.
 
 ### Collaboration evidence
 
-- My PR to my partner's repository: https://github.com/vistula-team-project-74014/vistula-task-manager/pull/1 — **OPEN; awaiting partner review and merge**.
+- My PR to my partner's repository: https://github.com/vistula-team-project-74014/vistula-task-manager/pull/1 — **MERGED by repository owner 74014**.
 - Partner's PR to this repository: https://github.com/vistula-team-project-73259/vistula-task-manager/pull/1 — **MERGED**.
 - Partner's student ID: **74014**.
 - Partner's repository: https://github.com/vistula-team-project-74014/vistula-task-manager
@@ -89,3 +89,4 @@ Only after the database, deployment and both merged contributions work, submit o
 https://vistula-team-project-73259.github.io/vistula-task-manager/
 
 Do not submit the ZIP, repository URL, screenshots, or this README.
+

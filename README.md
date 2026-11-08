@@ -9,7 +9,7 @@ Task Manager for Practical Assignment 1, Team Project – IT, Vistula University
 
 ## Current state
 
-The application is published on GitHub Pages from the root of `main` and connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains only the project URL and public publishable key. A browser check on the deployed website passed for adding a task, retaining it after a page reload, editing the title and description, marking it complete and incomplete, and deleting it. The temporary test record was removed. The contribution files must arrive through a different student's Pull Request; they are intentionally absent. The Team contribution link will work after that PR is merged and Pages redeploys.
+The application is published on GitHub Pages from the root of `main` and connected to its Supabase demonstration project. The `tasks` table and four public CRUD policies have been created, and `config.json` contains only the project URL and public publishable key. A browser check on the deployed website passed for adding a task, retaining it after a page reload, editing the title and description, marking it complete and incomplete, and deleting it. The temporary test record was removed. Partner 74014's contribution arrived through PR #1 and was reviewed and merged by this repository's owner. The deployed contribution page was checked: Show Contributor loads the JSON and displays 74014. My reciprocal PR to the partner's main branch is open and awaits the partner's review and merge.
 
 ## 1. Set up Supabase
 
@@ -57,7 +57,7 @@ The app uses GET for the list and by-ID reads, POST to create, PATCH to edit/tog
 
 ### Preparation checks
 
-JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. The published GitHub Pages application was then checked in a browser: create, page-reload persistence, edit, both status transitions, and delete all passed. The desktop layout was visually inspected. Partner contributions remain pending.
+JavaScript syntax and simulated REST checks passed for creating tasks, retaining records across app reloads, editing, both completion transitions, deleting, whitespace validation, required HTML IDs, rendering user input as text, public-key request headers, and configuration/API error handling. The setup SQL also ran successfully in the actual Supabase project. Separate live REST checks passed for the full CRUD cycle and saved changes. The published GitHub Pages application was then checked in a browser: create, page-reload persistence, edit, both status transitions, and delete all passed. The desktop layout was visually inspected. The incoming contributor page was reviewed and checked on the deployed site; the reciprocal PR remains open.
 
 ## 4. Complete the collaboration with another student
 
@@ -71,12 +71,14 @@ Do not add your own contribution files directly to this repository.
 6. Your partner repeats the process in your repository with **their own ID**. Review and merge their PR yourself.
 7. Confirm both deployed contributor pages and JSON URLs work. Record the two merged PR links below.
 
-### Collaboration evidence — complete after merging
+### Collaboration evidence
 
-- My PR to my partner's repository: **PENDING — insert merged PR URL**
-- Partner's PR to this repository: **PENDING — insert merged PR URL**
-- Partner's student ID: **PENDING**
-- Partner's repository: **PENDING**
+- My PR to my partner's repository: https://github.com/vistula-team-project-74014/vistula-task-manager/pull/1 — **OPEN; awaiting partner review and merge**.
+- Partner's PR to this repository: https://github.com/vistula-team-project-73259/vistula-task-manager/pull/1 — **MERGED**.
+- Partner's student ID: **74014**.
+- Partner's repository: https://github.com/vistula-team-project-74014/vistula-task-manager
+- Verified contributor page: https://vistula-team-project-73259.github.io/vistula-task-manager/contribution.html
+- Contributor JSON: https://vistula-team-project-73259.github.io/vistula-task-manager/contribution.json
 
 Both PRs must be authored by different students and merged by the receiving repository owners. An open PR does not complete the assignment.
 
